@@ -33,3 +33,4 @@ def get_date(input_string: str):
 print(get_date("12.12.2025"))
 print(mask_account_card("Visa Platinum 7000792289606361"))
 print(mask_account_card("Счет 874305"))
+
