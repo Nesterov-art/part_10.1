@@ -1,5 +1,6 @@
-card_number = input("Введите номер карты ").strip()
-number_account = input("Введите номер счета ").strip()
+# card_number = input("Введите номер карты ").strip()
+# number_account = input("Введите номер счета ").strip()
+from main import number_account, card_number
 
 
 def get_mask_card_number(card_number: str):
@@ -18,6 +19,6 @@ def get_mask_account(number_account: str):
     return mask_account
 
 
-print("Маска номера счета:", get_mask_account(number_account))
-print("Маска номера карты:", get_mask_card_number(card_number))
-
+if __name__ == "__main__":
+    print("Маска номера счета:", get_mask_account(number_account))
+    print("Маска номера карты:", get_mask_card_number(card_number))
