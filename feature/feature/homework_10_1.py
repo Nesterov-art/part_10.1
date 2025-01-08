@@ -5,7 +5,7 @@ def filter_and_sort_transactions(transactions, state='EXECUTED', ascending=True)
     filtered_transactions = [transaction for transaction in transactions if transaction.get('state') == state]
     return sorted(filtered_transactions, key=lambda x: x.get('date'), reverse=not ascending)
 
-# Example usage:
+
 transactions = [
     {"id": 1, "amount": 100, "state": "EXECUTED", "date": "2023-01-01"},
     {"id": 2, "amount": 200, "state": "PENDING", "date": "2023-01-02"},
