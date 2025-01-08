@@ -8,7 +8,7 @@
 
 1. 
 ```
-git clone https://github.com/Flippcom/pythonProject2.git
+git@github.com:Nesterov-art/part_10.1.git
 ```
 
 ## Использование:
